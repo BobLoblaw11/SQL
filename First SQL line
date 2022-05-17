@@ -1,0 +1,10 @@
+CREATE TABLE books (id INTEGER PRIMARY KEY, name text, rating integer);
+
+INSERT INTO 
+books 
+
+VALUES
+(1, "Looking for Alaska", 4),
+(2, "Random", 2),
+(3, "Paper Towns", 5)
+;
