@@ -1,0 +1,16 @@
+create table motorcycles (id integer primary key, Model text, Quantity integer, Price integer, Quality text);
+
+insert into motorcycles values (1, "A", 10 , 200, "good");
+insert into motorcycles values (2, "B", 9 , 100, "good");
+insert into motorcycles values (3, "C", 7 , 2020, "okay");
+insert into motorcycles values (4, "D", 55 , 1010, "okay");
+insert into motorcycles values (5, "E", 56 , 1010, "okay");
+insert into motorcycles values (6, "F", 10 , 400, "excellent");
+insert into motorcycles values (7, "G", 91 , 160, "good");
+insert into motorcycles values (8, "H", 72 , 210, "bad");
+insert into motorcycles values (9, "I", 21 , 10, "bad");
+insert into motorcycles values (10, "J", 61 , 110, "excellent");
+
+
+SELECT * FROM motorcycles
+order by price
