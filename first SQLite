@@ -1,0 +1,6 @@
+SELECT COUNT(cust.acctnum),
+avg(quantity)*price
+FROM BIT_DB.FebSales AS Feb
+LEFT JOIN BIT_DB.customers AS cust
+ON FEB.orderid=cust.order_id
+WHERE Feb.Quantity>2
